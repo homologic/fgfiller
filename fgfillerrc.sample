@@ -1,0 +1,30 @@
+# Sample fgfillerrc file
+
+# Payment info
+
+# IBAN number. Leave blank if a coupon is desired instead of wire transfer
+IBAN=""
+# BIC
+BIC=""
+# Account holder, if separate from the claimant
+ACCHOLDER=""
+
+# Personal data
+
+GENDER="" # Must be "Herr" or "Frau"
+# Academic title (Optional)
+TITLE=""
+# Company name (Optional)
+COMPANY=""
+# First name of the claimant
+FIRSTNAME=""
+# Last name of the claimant
+LASTNAME=""
+# Address data of the claimant
+STREET=""
+HOUSENR=""
+CO="" # c/o or similar (optonal)
+COUNTRY="" # country code, leave empty if Germany
+ZIP="" # Zip code
+CARDNR="" # Bahncard 100 or monthly ticket number
+DOB="" # Date of birth in case of Bahncard 100, Format DD MM YYYY separated by spaces
