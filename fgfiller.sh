@@ -42,6 +42,7 @@ write_field S2F8 "$STREET"
 write_field S2F9 "$HOUSENR"
 [ -n "$COUNTRY" ] && write_field S2F10 "$COUNTRY"
 write_field S2F11 "$ZIP"
+write_field S2F12 "$CITY"
 
 if [ -n "$CARDNR" ]; then
 	write_field S2F15 "$CARDNR"
